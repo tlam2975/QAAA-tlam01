@@ -16,7 +16,7 @@
 			<img src="css/qaaa-logo.svg">
 		</div>
 		<div class="login-content">
-			<form action="login.html">
+			<form>
 				<img src="css/Logo-NEU.PNG">
 				<h2 class="title">Welcome</h2>
 				<div class="input-div one">
@@ -25,7 +25,7 @@
 					</div>
 					<div class="div">
 						<h5>Mã sinh viên</h5>
-						<input type="text" class="input">
+						<input type="text" class="input" id="username">
 					</div>
 				</div>
 				<div class="input-div pass">
@@ -34,11 +34,11 @@
 					</div>
 					<div class="div">
 						<h5>Mật khẩu</h5>
-						<input type="password" class="input">
+						<input type="password" class="input" id="password">
 					</div>
 				</div>
 				<a href="#">Quên mật khẩu?</a>
-				<input type="submit" class="btn" value="Login" onclick="login()">
+				<button type="button" class="btn" onclick="login()">Login</button>
 			</form>
 		</div>
 	</div>

@@ -34,10 +34,6 @@ function login() {
 		alert("Please enter username and password.");
 	}
 	else {
-		window.location.href = "/../main.html"; // Redirect to dashboards
+		window.location.href = "main.html"; // Redirect to dashboards
 	}
-}
-
-function draft() {
-	console.log("Draft saved");
 }
