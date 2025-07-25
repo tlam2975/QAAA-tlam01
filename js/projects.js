@@ -186,10 +186,25 @@ function saveProjectToStorage() {
         localStorage.setItem('neuProjects', JSON.stringify(projects));
     }
 }
-
 function importData() {
-    alert('Tính năng import dữ liệu sẽ được phát triển. Hiện tại bạn có thể sử dụng công cụ tra cứu NEU.');
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.csv,.xlsx,.json';
+    input.multiple = true;
+
+    input.onchange = function (e) {
+        const files = e.target.files;
+        // Process your files here
+        console.log('Selected files:', files);
+    };
+
+    input.click();
 }
+
+
+
+
+
 
 function connectDatabase() {
     alert('Đang kết nối với cơ sở dữ liệu NEU...');
