@@ -186,6 +186,7 @@ function saveProjectToStorage() {
         localStorage.setItem('neuProjects', JSON.stringify(projects));
     }
 }
+
 function importData() {
     const input = document.createElement('input');
     input.type = 'file';
@@ -197,7 +198,6 @@ function importData() {
         // Process your files here
         console.log('Selected files:', files);
     };
-
     input.click();
 }
 
