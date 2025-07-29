@@ -1,6 +1,9 @@
 // Dữ liệu mẫu cho các dự án
 let projects = JSON.parse(localStorage.getItem('neuProjects')) || [];
 
+const logger = document.getElementsByClassName("header");
+console.log("Header loaded successfully");
+
 // Hiển thị danh sách dự án
 function displayProjects() {
     const container = document.getElementById('projectsContainer');
