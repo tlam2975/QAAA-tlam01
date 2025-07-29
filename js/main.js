@@ -2,7 +2,7 @@
 let projects = JSON.parse(localStorage.getItem('neuProjects')) || [];
 
 const logger = document.getElementsByClassName("header");
-console.log("Header loaded successfully");
+console.log(logger);
 
 // Hiển thị danh sách dự án
 function displayProjects() {
