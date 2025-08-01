@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="header">s
+    <header class="header">
         <div class="header-content">
             <div class="project-info">
                 <h1 id="projectTitle">Đang tải dự án...</h1>
@@ -61,6 +61,10 @@
                 <li><a href="#" class="nav-link" data-section="reports">
                         <i class="fas fa-file-alt"></i>
                         Báo cáo
+                    </a></li>
+                <li><a href="#" class="nav-link" data-section="reports">
+                        <i class="fas fa-file-alt"></i>
+                        Khảo sát
                     </a></li>
             </ul>
 
@@ -154,9 +158,9 @@
                 <div class="filter-controls">
                     <select id="dataFilter">
                         <option value="all">Tất cả dữ liệu</option>
-                        <option value="students">Dữ liệu sinh viên</option>
-                        <option value="courses">Dữ liệu môn học</option>
-                        <option value="grades">Dữ liệu điểm số</option>
+                        <option value="students">Dữ liệu khảo sát</option>
+                        <option value="courses">Dữ liệu tra cứu</option>
+                        <!-- <option value="grades">Dữ liệu điểm số</option> -->
                     </select>
                     <input type="text" id="searchData" placeholder="Tìm kiếm...">
                     <button class="btn btn-primary btn-small" onclick="refreshData()">

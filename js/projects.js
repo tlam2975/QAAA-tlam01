@@ -207,7 +207,8 @@ function importData() {
 
 
 function connectDatabase() {
-    alert('Đang kết nối với cơ sở dữ liệu NEU...');
+    // alert('Đang kết nối với cơ sở dữ liệu NEU...');
+    alert("Tính năng đang phát triển!");
 }
 
 function createChart() {
